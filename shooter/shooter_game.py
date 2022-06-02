@@ -3,8 +3,8 @@ from random import randint
 #подгружаем отдельно функции для работы со шрифтом
 font.init()
 font1 = font.SysFont('Arial', 80)
-win = font1.render('YOU WIN!', True, (255, 255, 255))
-lose = font1.render('YOU LOSE!', True, (180, 0, 0))
+win = font1.render('Выигрыш!', True, (255, 255, 255))
+lose = font1.render('Проигрыш!', True, (180, 0, 0))
 
 font2 = font.SysFont('Arial', 36)
 
